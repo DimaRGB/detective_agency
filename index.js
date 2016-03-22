@@ -14,7 +14,7 @@ jQuery(function ($) {
           alert(data.error);
         } else {
           console.log(data);
-          $table.append('<tr><td>' + data.id + '</td><td>' + data.fio + '</td><td>' + data.position + '</td><td>' + data.experience + '</td></tr>')
+          $table.append('<tr><td>' + data.id + '</td><td>' + data.fio + '</td><td>' + data.position + '</td><td>' + data.experience + '</td></tr>');
           $form[0].reset();
         }
       }

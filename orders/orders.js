@@ -14,7 +14,7 @@ jQuery(function ($) {
           alert(data.error);
         } else {
           console.log(data);
-          $table.append('<tr><td>' + data.id + '</td><td>' + data.fio + '</td><td>' + data.position + '</td><td>' + data.experience + '</td></tr>')
+          $table.append('<tr><td>' + data.id + '</td><td>' + data.employee_fio + '</td><td>' + data.client_fio + '</td><td>' + data.price + '</td><td>' + data.description + '</td><td>' + data.created_at + '</td></tr>');
           $form[0].reset();
         }
       }
