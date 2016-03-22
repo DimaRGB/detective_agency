@@ -8,9 +8,8 @@ body {
 
 hr {
   border: none;
-  border-bottom: 4px solid #0077cc;
-  margin: 0;
-  margin-top: 20px;
+  border-bottom: 2px solid #0077cc;
+  margin: 20px 0 40px;
 }
 
 .menu {
@@ -54,7 +53,7 @@ td {
 }
 
 form {
-  width: 450px;
+  width: 500px;
 }
 
 .form-group {
@@ -69,7 +68,15 @@ form {
   margin: 20px 0;
 }
 
-input, button {
+input, button, textarea {
   font-size: 14px;
   padding: 4px 6px;
+}
+
+input, textarea {
+  width: 200px;
+}
+
+textarea {
+  height: 50px;
 }
