@@ -37,6 +37,10 @@ hr {
   text-decoration: none;
 }
 
+.menu li.active {
+  font-weight: bold;
+}
+
 table {
   border-collapse: collapse;
 }
