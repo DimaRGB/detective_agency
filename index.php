@@ -40,16 +40,16 @@
     <h3>Додади нового співробітника</h3>
     <form id='form-staff'>
       <div class='form-group'>
-        <label>Прізвище, Ім'я, По-батькові</label>
-        <input type='text' name='employee[fio]' placeholder='ПІБ' />
+        <label>Прізвище, Ім'я, По-батькові *</label>
+        <input type='text' name='employee[fio]' placeholder='ПІБ' required='required' />
       </div>
       <div class='form-group'>
-        <label>Посада</label>
-        <input type='text' name='employee[position]' placeholder='Посада' />
+        <label>Посада *</label>
+        <input type='text' name='employee[position]' placeholder='Посада' required='required' />
       </div>
       <div class='form-group'>
-        <label>Досвід</label>
-        <textarea name='employee[experience]' placeholder='Досвід'></textarea>
+        <label>Досвід *</label>
+        <textarea name='employee[experience]' placeholder='Досвід' required='required'></textarea>
       </div>
       <div class='form-controls'>
         <button type='submit'>Додати</button>

@@ -62,30 +62,29 @@
     <h3>Зробити замовлення</h3>
     <form id='form-order'>
       <div class='form-group'>
-        <label>ПІБ Працівника</label>
-        <select name='order[employee_fio]'>
+        <label>ПІБ Працівника *</label>
+        <select name='order[employee_fio]' required='required'>
           <?php foreach( $staff as $employee ) {
             echo "<option>{$employee['fio']}</option>";
           } ?>
         </select>
       </div>
       <div class='form-group'>
-        <label>ПІБ Клієнта</label>
-        <input type='text' name='order[client_fio]' placeholder='ПІБ Клієнта' list='clients' />
+        <label>ПІБ Клієнта *</label>
+        <input type='text' name='order[client_fio]' placeholder='ПІБ Клієнта' list='clients' required='required' />
         <datalist id='clients'>
           <?php foreach( $clients as $client ) {
-
-            echo "<option value='{$client['fio']}' data-id='{$client['fio']}' />";
+            echo "<option value='{$client['fio']}' />";
           } ?>
         </datalist>
       </div>
       <div class='form-group'>
-        <label>Ціна</label>
-        <input type='number' name='order[price]' placeholder='Ціна' />
+        <label>Ціна *</label>
+        <input type='number' name='order[price]' placeholder='Ціна' required='required' />
       </div>
       <div class='form-group'>
-        <label>Опис розслідування</label>
-        <textarea name='order[description]' placeholder='Опис'></textarea>
+        <label>Опис розслідування *</label>
+        <textarea name='order[description]' placeholder='Опис' required='required'></textarea>
       </div>
       <div class='form-controls'>
         <button type='submit'>Створити</button>
