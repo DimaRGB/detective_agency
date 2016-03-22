@@ -18,7 +18,7 @@
       $staff = $stmt->fetchAll();
     ?>
 
-    <h3>Співробітники</h3>
+    <h3>Список співробітників</h3>
     <table id='table-staff'>
       <tr>
         <th>ID</th>

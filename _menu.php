@@ -1,6 +1,6 @@
 <ul class='menu'>
-  <li><a href='/'>Список співробітників</a></li>
-  <li><a href='/orders/orders.php'>Список замовлень</a></li>
-  <li><a href='/clients/clients.php'>Список клієнтів</a></li>
+  <li><a href='/'>Співробітники</a></li>
+  <li><a href='/orders/orders.php'>Замовлення</a></li>
+  <li><a href='/clients/clients.php'>Клієнти</a></li>
 </ul>
 <hr />

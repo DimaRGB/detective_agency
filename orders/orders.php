@@ -36,7 +36,7 @@
       $clients = $stmt->fetchAll();
     ?>
 
-    <h3>Замовлення</h3>
+    <h3>Список замовлень</h3>
     <table id='table-orders'>
       <tr>
         <th>ID</th>

@@ -18,7 +18,7 @@
       $staff = $stmt->fetchAll();
     ?>
 
-    <h3>Клієнти</h3>
+    <h3>Список клієнтів</h3>
     <table id='table-clients'>
       <tr>
         <th>ID</th>
